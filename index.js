@@ -14,7 +14,7 @@ app.use(cors());
 
 
 
-app.use('/posts', postRoute,)
+app.use('/posts', postRoute)
 
 app.use(express.json());
 const db = `mongodb+srv://mernproject:i9iUbynW7j76YtJ8@cluster0.ow5x2.mongodb.net/?retryWrites=true&w=majority`
